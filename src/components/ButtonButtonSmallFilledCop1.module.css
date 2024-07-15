@@ -1,0 +1,44 @@
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--colour-main-blue-800);
+}
+.buttonLabel {
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  font-weight: 900;
+  z-index: 1;
+}
+.buttonbuttonsmallfilledCop,
+.elementbuttonsmallfilledCo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.elementbuttonsmallfilledCo {
+  flex: 1;
+  border-radius: var(--corner-medium);
+  padding: var(--padding-9xs) 0 var(--padding-10xs);
+  position: relative;
+  white-space: nowrap;
+}
+.buttonbuttonsmallfilledCop {
+  width: 271px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: var(--paragraph-regular-16-size);
+  color: var(--colour-secondary-white-100-general);
+  font-family: var(--paragraph-regular-16);
+}

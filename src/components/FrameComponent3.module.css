@@ -1,0 +1,370 @@
+.commentAMarche {
+  position: relative;
+  line-height: 24px;
+}
+.commentCaMarcheTitleContai,
+.commentCaMarcheTitleContaiWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.commentCaMarcheTitleContai {
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-100);
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-4xl);
+  white-space: nowrap;
+}
+.commentCaMarcheTitleContaiWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.emptyEtapes {
+  position: relative;
+  display: inline-block;
+  min-width: 8px;
+}
+.emptyEtapesWrapper {
+  width: 47.5px;
+  border-radius: 42.25px;
+  background-color: var(--color-goldenrod-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-6) var(--padding-lgi);
+  box-sizing: border-box;
+}
+.crezUnCompte,
+.tape1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 27px;
+}
+.crezUnCompte {
+  height: 33px;
+  line-height: 26.4px;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.etapesRows,
+.etapesTitlesCols {
+  display: flex;
+  box-sizing: border-box;
+}
+.etapesTitlesCols {
+  width: 207.3px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  font-family: var(--paragraph-regular-16);
+}
+.etapesRows {
+  width: 413px;
+  border-radius: 21.12px;
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-2xs-6) var(--padding-54xl) var(--padding-2xs-5)
+    var(--padding-lgi);
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.b {
+  position: relative;
+  display: inline-block;
+  min-width: 8px;
+}
+.wrapper {
+  width: 47.5px;
+  border-radius: 42.25px;
+  background-color: var(--color-goldenrod-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-6) var(--padding-lgi);
+  box-sizing: border-box;
+}
+.postezVotreDemande,
+.tape2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 27px;
+}
+.postezVotreDemande {
+  height: 33px;
+  line-height: 26.4px;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.etapesRows1,
+.tape2Parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.tape2Parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-11xs);
+  min-width: 135px;
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  font-family: var(--paragraph-regular-16);
+}
+.etapesRows1 {
+  width: 413px;
+  border-radius: 21.12px;
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-2xs-6) var(--padding-69xl) var(--padding-2xs-5)
+    var(--padding-lgi);
+  gap: var(--gap-31xl-2);
+  max-width: 100%;
+}
+.b1 {
+  position: relative;
+  display: inline-block;
+  min-width: 8px;
+}
+.container {
+  width: 47.5px;
+  border-radius: 42.25px;
+  background-color: var(--color-goldenrod-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-6) var(--padding-lgi);
+  box-sizing: border-box;
+}
+.choisissezUnPrestataire,
+.tape3 {
+  position: relative;
+  letter-spacing: -0.3px;
+}
+.tape3 {
+  align-self: stretch;
+  line-height: 27px;
+}
+.choisissezUnPrestataire {
+  width: 236.3px;
+  height: 33px;
+  line-height: 26.4px;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.etapesRows2,
+.tape3Parent {
+  display: flex;
+  box-sizing: border-box;
+}
+.tape3Parent {
+  width: 207.3px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  font-family: var(--paragraph-regular-16);
+}
+.etapesRows2 {
+  width: 413px;
+  border-radius: 21.12px;
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-2xs-5) var(--padding-54xl) var(--padding-2xs-6)
+    var(--padding-lgi);
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.b2 {
+  position: relative;
+  display: inline-block;
+  min-width: 8px;
+}
+.frame {
+  width: 47.5px;
+  border-radius: 42.25px;
+  background-color: var(--color-goldenrod-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-6) var(--padding-lgi);
+  box-sizing: border-box;
+}
+.suivezLavancementEt,
+.tape4 {
+  position: relative;
+  letter-spacing: -0.3px;
+}
+.tape4 {
+  align-self: stretch;
+  line-height: 27px;
+}
+.suivezLavancementEt {
+  height: 33px;
+  line-height: 26.4px;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.etapesContainer,
+.etapesRows3,
+.tape4Parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.tape4Parent {
+  width: 207.3px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  font-family: var(--paragraph-regular-16);
+}
+.etapesContainer,
+.etapesRows3 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.etapesRows3 {
+  border-radius: 21.12px;
+  background-color: var(--color-whitesmoke-200);
+  align-items: center;
+  padding: var(--padding-2xs-5) var(--padding-69xl) var(--padding-2xs-6)
+    var(--padding-lgi);
+  gap: var(--gap-31xl-2);
+}
+.etapesContainer {
+  width: 986.5px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0;
+  gap: 29px 156.1px;
+  min-height: 195px;
+}
+.frameChild {
+  height: 195px;
+  width: 6px;
+  position: relative;
+  background-color: var(--color-goldenrod-100);
+  z-index: 1;
+  margin-left: -496.5px;
+}
+.commentCaMarcheContainer,
+.etapesContainerParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.etapesContainerParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-4xl-8);
+  color: var(--labels-primary);
+  font-family: var(--font-urbanist);
+}
+.commentCaMarcheContainer {
+  width: 986.5px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-25xl);
+}
+.commentCaMarcheContainerWrapper {
+  width: 1199px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-32xl-7);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--colour-main-blue-800);
+  font-family: var(--paragraph-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .etapesContainer {
+    gap: var(--gap-59xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .etapesContainer {
+    gap: var(--gap-20xl);
+  }
+  .commentCaMarcheContainer {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .emptyEtapes {
+    font-size: var(--font-size-lgi);
+  }
+  .etapesRows {
+    flex-wrap: wrap;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .b {
+    font-size: var(--font-size-lgi);
+  }
+  .etapesRows1 {
+    flex-wrap: wrap;
+    gap: var(--gap-6xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .b1 {
+    font-size: var(--font-size-lgi);
+  }
+  .etapesRows2 {
+    flex-wrap: wrap;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .b2 {
+    font-size: var(--font-size-lgi);
+  }
+  .etapesRows3 {
+    flex-wrap: wrap;
+    gap: var(--gap-6xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .etapesContainer {
+    gap: var(--gap-xl);
+  }
+  .commentCaMarcheContainerWrapper {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,40 @@
+.title {
+  flex: 1;
+  position: relative;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 31px);
+}
+.chevronDownIcon {
+  height: 21.9px;
+  width: 21.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accordionItem,
+.accordionTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accordionTitle {
+  flex: 1;
+  gap: var(--space-200);
+}
+.accordionItem {
+  align-self: stretch;
+  border-radius: 8.69px;
+  background-color: var(--background-default-secondary);
+  border: 1.1px solid var(--border-default-default);
+  box-sizing: border-box;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-mid);
+  text-align: left;
+  font-size: var(--font-size-mid-5);
+  color: var(--color-goldenrod-400);
+  font-family: var(--single-line-body-base);
+}
