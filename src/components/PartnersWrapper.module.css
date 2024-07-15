@@ -1,0 +1,102 @@
+.nosPartenaires1 {
+  margin: 0;
+}
+.nosPartenaires {
+  margin: 0;
+  height: 42px;
+  width: 257px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.nosPartenairesWrapper {
+  width: 433px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logoPlaceholderIcon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logosContainer,
+.partnerDetails {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logosContainer {
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+}
+.partnerDetails {
+  flex: 1;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-4xl);
+  min-width: 757px;
+  max-width: 100%;
+  grid-template-columns: repeat(4, minmax(205px, 1fr));
+  z-index: 1;
+}
+.partnerLogos,
+.partnersWrapper {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.partnerLogos {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-19xl);
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--colour-secondary-white-100-general);
+  font-family: var(--font-poppins);
+}
+.partnersWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg-8);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-goldenrod-300);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1050px) {
+  .nosPartenaires {
+    font-size: var(--font-size-10xl);
+  }
+  .partnerDetails {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(205px, 356px));
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partnerLogos {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nosPartenaires {
+    font-size: var(--font-size-3xl);
+  }
+  .partnerDetails {
+    grid-template-columns: minmax(205px, 1fr);
+  }
+}

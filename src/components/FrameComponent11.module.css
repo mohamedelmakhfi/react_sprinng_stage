@@ -1,0 +1,225 @@
+.landie {
+  text-decoration: none;
+  width: 151px;
+  position: relative;
+  line-height: 38px;
+  font-weight: 900;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.home {
+  font-weight: 700;
+  color: inherit;
+  min-width: 61px;
+}
+.about,
+.about1,
+.contact,
+.home {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.about {
+  font-weight: 800;
+  color: var(--colour-main-blue-800);
+  min-width: 73px;
+  white-space: nowrap;
+}
+.about1,
+.contact {
+  color: inherit;
+  min-width: 68px;
+}
+.contact {
+  min-width: 63px;
+}
+.navLinks,
+.pageContent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.navLinks {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-steelblue);
+  font-family: var(--paragraph-regular-16);
+}
+.pageContent {
+  width: 421px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--colour-main-blue-800);
+}
+.buttonLabel {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+.elementbuttonsmallfilledCo {
+  border-radius: var(--corner-medium);
+  padding: var(--padding-6xs) 0;
+  position: relative;
+}
+.buttonbuttonsmallfilledCop,
+.elementbuttonsmallfilledCo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bg1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-goldenrod-100);
+}
+.buttonLabel1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+.elementbuttonsmallfilledCo1 {
+  flex: 1;
+  border-radius: var(--corner-medium);
+  background-color: var(--color-goldenrod-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0;
+  position: relative;
+}
+.buttonbuttonsmallfilledCop1 {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: var(--colour-main-blue-900);
+}
+.buttonContainer,
+.buttonbuttonsmallfilledCop1,
+.buttons,
+.navbar {
+  display: flex;
+  align-items: flex-start;
+}
+.buttonContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.buttons,
+.navbar {
+  box-sizing: border-box;
+}
+.buttons {
+  width: 249px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--colour-secondary-white-100-general);
+}
+.navbar {
+  margin: 0;
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-sm);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--colour-main-blue-800);
+  font-family: var(--paragraph-regular-16);
+}
+.iconSettings {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) 0 0;
+}
+.aboutInner,
+.navbarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navbarParent {
+  width: 1234px;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.aboutInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-66xl) var(--padding-47xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .pageContent {
+    display: none;
+  }
+  .aboutInner {
+    padding-left: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navLinks {
+    display: none;
+  }
+  .pageContent {
+    width: 0;
+  }
+}

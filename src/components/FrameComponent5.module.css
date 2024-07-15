@@ -1,0 +1,256 @@
+.learnSkillsInnerChild {
+  width: 1440px;
+  height: 622px;
+  position: relative;
+  background-color: var(--border-default-default);
+  display: none;
+  max-width: 100%;
+}
+.skillsYouWill {
+  margin: 0;
+  width: 543.7px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.learnSkillsWrapper {
+  width: 730px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-8xs) var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--colour-main-blue-800);
+  font-family: var(--font-source-sans-pro);
+}
+.defineYourSpace {
+  position: relative;
+  letter-spacing: 0.1em;
+}
+.buildAMood,
+.createYourDesign,
+.evaluateFurnitureSize,
+.sketchYourFloor {
+  margin-bottom: 0;
+}
+.buildAMoodBoardCreateYour {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-mid);
+}
+.buildAMoodContainer {
+  width: 254.4px;
+  position: relative;
+  font-size: var(--font-size-sm-1);
+  line-height: 20.35px;
+  font-weight: 600;
+  display: inline-block;
+}
+.skillItems {
+  flex: 1;
+  box-shadow: 0 2.9px 8.72px rgba(0, 0, 0, 0.18);
+  border-radius: 21.81px;
+  background-color: var(--colour-secondary-white-100-general);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl-5) var(--padding-xl) var(--padding-lgi-3)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xs-6);
+  min-width: 229px;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.garnerYourDesign {
+  position: relative;
+  letter-spacing: 0.1em;
+}
+.chooseYourColor,
+.establishAccentPieces,
+.pickingOutFurniture,
+.selectYourFabrics {
+  margin-bottom: 0;
+}
+.chooseYourColorPaletteSele {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-mid);
+}
+.chooseYourColorContainer {
+  width: 294.4px;
+  position: relative;
+  font-size: var(--font-size-sm-1);
+  line-height: 20.35px;
+  font-weight: 600;
+  display: inline-block;
+}
+.skillItems1,
+.skillList {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skillItems1 {
+  box-shadow: 0 2.9px 8.72px rgba(0, 0, 0, 0.18);
+  border-radius: 21.81px;
+  background-color: var(--color-goldenrod-300);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xl-5) var(--padding-lgi) var(--padding-lgi-3)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xs-6);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.skillList {
+  width: 729px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-6xl-4);
+}
+.activateYourVision {
+  position: relative;
+  letter-spacing: 0.1em;
+}
+.accessorizeShelves,
+.balanceArtificial,
+.dressUpWindow,
+.hangArtworkProperly {
+  margin-bottom: 0;
+}
+.hangArtworkProperlyBalance {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-mid);
+}
+.hangArtworkProperlyContainer {
+  position: relative;
+  font-size: var(--font-size-sm-1);
+  line-height: 20.35px;
+  font-weight: 600;
+}
+.activateVisionInner {
+  width: 351.8px;
+  box-shadow: 0 2.9px 8.72px rgba(0, 0, 0, 0.18);
+  border-radius: 21.81px;
+  background-color: var(--colour-secondary-white-100-general);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl-4) var(--padding-xl) var(--padding-lgi-3)
+    var(--padding-5xl);
+  gap: var(--gap-11xs-7);
+  z-index: 2;
+}
+.activateVisionInner,
+.activateVisionInnerWrapper,
+.learnSkillsInner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.activateVisionInnerWrapper {
+  width: 730px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.learnSkillsInner {
+  align-self: stretch;
+  background-color: var(--border-default-default);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-53xl) var(--padding-423xl) var(--padding-76xl-2)
+    var(--padding-xl);
+  gap: var(--gap-6xl-5);
+  z-index: 1;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 823px;
+  border-radius: 50%;
+  background-color: var(--color-goldenrod-300);
+  width: 596px;
+  height: 596px;
+}
+.groupIcon {
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  width: 1057px;
+  height: 574px;
+  z-index: 1;
+}
+.ellipseParent {
+  width: 1273px;
+  height: 784px;
+  position: relative;
+  max-width: 100%;
+  margin-top: -125px;
+}
+.learnSkillsInnerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xl-5);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mid-4);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .learnSkillsInner {
+    padding-right: var(--padding-202xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .skillsYouWill {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .learnSkillsInner {
+    padding-top: var(--padding-28xl);
+    padding-right: var(--padding-91xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skillsYouWill {
+    font-size: var(--heading-size);
+  }
+  .learnSkillsInner {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

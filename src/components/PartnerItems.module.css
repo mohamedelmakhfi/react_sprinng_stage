@@ -1,0 +1,94 @@
+.download41 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupCultureAnd,
+.musicianEducation {
+  margin: 0;
+}
+.groupCultureAndContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.danielHpink {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  min-width: 117px;
+}
+.partnerNameAndTutorial {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewTutorial {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.tutorialButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tutorialLinks {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--colour-secondary-white-100-general);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.partnerInfo,
+.partnerItems,
+.tutorialLinks {
+  display: flex;
+  justify-content: flex-start;
+}
+.partnerInfo {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  z-index: 1;
+}
+.partnerItems {
+  height: 379px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--colour-secondary-white-100-general);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--colour-secondary-white-100-general);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .groupCultureAndContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

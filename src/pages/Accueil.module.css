@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 49px 120px 533px var(--padding-10xs);
+  padding: var(--padding-30xl) 120px 533px var(--padding-10xs);
   gap: 100px;
   line-height: normal;
   letter-spacing: normal;
@@ -57,7 +57,7 @@
 }
 @media screen and (max-width: 750px) {
   .accueilInner {
-    padding-bottom: 31px;
+    padding-bottom: var(--padding-12xl);
     box-sizing: border-box;
   }
   .accueil {

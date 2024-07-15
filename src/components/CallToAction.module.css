@@ -1,0 +1,103 @@
+.connexion,
+.prtCommencer {
+  position: relative;
+}
+.connexion {
+  font-size: var(--font-size-base-1);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--colour-secondary-white-100-general);
+  text-align: center;
+  display: inline-block;
+  min-width: 79px;
+}
+.actionButtonLabels {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-3) var(--padding-4xl);
+  background-color: var(--color-goldenrod-400);
+  border-radius: 7.57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.actionButtonLabels:hover {
+  background-color: var(--color-darkgoldenrod-100);
+}
+.contact {
+  position: relative;
+  font-size: var(--font-size-base-1);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-goldenrod-400);
+  text-align: center;
+  display: inline-block;
+  min-width: 62px;
+}
+.actionButtonLabels1 {
+  cursor: pointer;
+  border: 0.8px solid var(--color-goldenrod-400);
+  padding: var(--padding-5xs) var(--padding-12xl);
+  background-color: transparent;
+  border-radius: 7.57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.actionButtonLabels1:hover {
+  background-color: var(--color-darkgoldenrod-200);
+  border: 0.8px solid var(--color-darkgoldenrod-100);
+  box-sizing: border-box;
+}
+.actionButtons,
+.callToActionWrapper {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-mini-4);
+}
+.actionButtons {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.callToActionWrapper {
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.callToAction,
+.callToActionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.callToActionInner {
+  width: 899.6px;
+  border-radius: 68.09px;
+  background-color: var(--colour-main-blue-800);
+  padding: var(--padding-16xl-6) var(--padding-xl) var(--padding-12xl-2);
+}
+.callToAction {
+  width: 1162.3px;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-22xl-6);
+  color: var(--color-goldenrod-400);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1050px) {
+  .prtCommencer {
+    font-size: var(--font-size-14xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .prtCommencer {
+    font-size: var(--font-size-6xl);
+  }
+}
